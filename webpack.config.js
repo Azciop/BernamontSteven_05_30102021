@@ -29,7 +29,7 @@ module.exports = {
     },
 
     output: {
-        path: path.resolve(dirname, "assets/dist/js/"),
+        path: path.resolve(__dirname, "assets/dist/js/"),
     },
 
     devServer: {
